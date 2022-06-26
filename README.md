@@ -1,9 +1,15 @@
 # B-Trees
 Using Python to implement B-tree structure
 
-## Run "Print.py" to print out B-tree
-B-Trees are short and wide M-ary trees, where M is an integer ≥ 2 that is chosen to fit as many keys and pointers into a node as possible, where the size of each node is defined by the size of a disk block.
-Similarly, the constant L is chosen to pack as many data items as possible into a disk block.
+## How to run:
+graph.py -> Draw how the B-trees looks like
+print.py -> Change M, L to control the number of keys in each non-leaf node and items in leaf node
+```
+python3 print.py
+```
+
+## Introduction:
+B-Trees are short and wide M-ary trees, where M is an integer ≥ 2 that is chosen to fit as many keys and pointers into a node as possible, where the size of each node is defined by the size of a disk block. Similarly, the constant L is chosen to pack as many data items as possible into a disk block.
 
 ## definition of a B-Tree:
 • Each node has at most m children
@@ -20,3 +26,4 @@ Similarly, the constant L is chosen to pack as many data items as possible into 
 
 • All leaves reside at the same level
 
+## Output:
