@@ -27,8 +27,6 @@ B-Trees are short and wide M-ary trees, where M is an integer ≥ 2 that is chos
 • All leaves reside at the same level
 
 ## Output:
-M = 4
-L = 20
-Numbers = 100
+M = 4, L = 20, Numbers = 100
 
 ![image](https://user-images.githubusercontent.com/43212302/175808891-ddecbe79-194c-4383-a7d1-de7bf844520f.png)
