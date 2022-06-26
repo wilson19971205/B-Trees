@@ -7,9 +7,16 @@ Similarly, the constant L is chosen to pack as many data items as possible into 
 
 ## definition of a B-Tree:
 • Each node has at most m children
+
 • Each non-leaf and non-root node has at least math.ceiling(M / 2) children
+
 • A non-leaf node with k children contains k − 1 comparable keys
+
 • The root, if it isn’t a leaf, has at least 2 children
+
 • Each leaf node holds between math.ceiling(L / 2) and L data items
+
 • If the leaf is the root, it can have a minimum of zero data items
+
 • All leaves reside at the same level
+
