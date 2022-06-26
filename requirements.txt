@@ -1,0 +1,4 @@
+python = "3.6.9"
+pytest = "6"
+pytest-depends = "1.0.1"
+mypy = "0.910"
