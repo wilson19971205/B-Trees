@@ -5,7 +5,7 @@ Using Python to implement B-tree structure
 graph.py -> Draw how the B-trees looks like
 print.py -> Change M, L to control the number of keys in each non-leaf node and items in leaf node
 ```
-python print.py
+python3 print.py
 ```
 
 ## Introduction:
